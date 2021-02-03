@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><span style="color:red">*</span> - Donates required information</p>
+<p><span style="font-weight:bold"> > 1 Donation &nbsp;&nbsp;</span> > 2 Confirmation &nbsp;&nbsp;&nbsp;> Thank You!</p>
+
+<p><font size="5"><span style="color:red;font-weight:bold">Donor Information</span></font></p>
+
+<form>
+	<table>
+	<tr>
+	<td>
+  <label for="fname"><span style="font-weight:bold">First name<span style="color:red">*</span></label>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname"><span style="font-weight:bold">Last name<span style="color:red">*</span></label>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="com"><span style="font-weight:bold">Company</label>
+  <input type="text" id="Com" name="com"><br>
+  <label for="add1"><span style="font-weight:bold">Address 1<span style="color:red">*</span></label>
+  <input type="text" id="add1" name="add1"><br>
+  <label for="add2"><span style="font-weight:bold">Address 2</span></label>
+  <input type="text" id="add2" name="add2"><br>
+  <label for="city"><span style="font-weight:bold">City<span style="color:red">*</span></label>
+  <input type="text" id="city" name="city"><br>
+  <label for="State"><span style="font-weight:bold">State<span style="color:red">*</span></label>
+  <select type="state" name="state">
+  	<option value="state">Select a State</option></select>
+  <br>
+  <label for="zip"><span style="font-weight:bold">Zip Code<span style="color:red">*</span></label>
+  <input type="text" name="zip"><br>
+  <label for="con"><span style="font-weight:bold">Country<span style="color:red">*</span></label>
+  <select type="con" name="con">
+    <option value="con">Select a Country</option></select>
+  <br>
+  <label for="phn"><span style="font-weight:bold">Phone</label>
+  <input type="text" name="phn"><br>
+  <label for="fax"><span style="font-weight:bold">Fax</label>
+  <input type="text" name="fax"><br>
+  <label for="email"><span style="font-weight:bold">Email<span style="color:red">*</span></label>
+  <input type="text" name="email"><br>
+  <label for="Donate"><span style="font-weight:bold">Donation Amount<span style="color:red">*</span></label>
+  <input type="radio" id="none" name="Donate" value="none">
+  <label for="none">None</label>
+  <input type="radio" name="50" value="50">
+  <label for="50">$50</label>
+  <input type="radio"name="75" value="75">
+  <label for="75">$75</label>
+  <input type="radio" name="100" value="100">
+  <label for="50">$100</label>
+  <input type="radio"name="250" value="250">
+  <label for="75">$250</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <p><font size="2">(Check a button or type in your amount)</font></p>
+  <label for="otam"><span style="font-weight:bold">Other Amount $</label>
+  <input type="text" name="otam"><br>
+  <label for="Rec"><span style="font-weight:bold">Recurring Donation<font size="2">(Check if yes)</font></label>
+  <input type="checkbox" name="Rec">
+  <label for="rec"> I am interested in giving on a regular basis.</label>
+  <p><span> Monthly Credit Card $ <input type="text" name="credit"> </span>  For <input type="text" name="otam">Months</p>
+  <p><font size="5"><span style="color:red;font-weight:bold">Honorarium and Memorial Donation Information</span></font></p>
+  <label for="Donate"><span style="font-weight:bold">I would like to make this donation</label>
+  <input type="radio" id="honor" name="Donate" value="honor">
+  <label for="honor">To Honor</label>
+  <input type="radio" id="mem" name="Donate" value="mem">
+  <label for="mem">In Memory of</label>
+  <label for="In Memory of"></label><br>
+  <label for="name"><span style="font-weight:bold">Name</label>
+  <input type="name" name="name"><br>
+  <label for="don"><span style="font-weight:bold">Acknowledge Donation to</label>
+  <input type="text" name="don"><br>
+  <label for="add"><span style="font-weight:bold">Address</label>
+  <input type="text" name="add"><br>
+  <label for="city"><span style="font-weight:bold">City</label>
+  <input type="text" id="city" name="city"><br>
+  <label for="State"><span style="font-weight:bold">State</label>
+  <select type="state" name="state">
+  <option value="state">Select a State</option></select>
+  <br>
+  <label for="zip"><span style="font-weight:bold">Zip</label>
+  <input type="text" name="zip"><br>
+  <p><font size="5"><span style="color:red;font-weight:bold">Additional Information</span></font></p>
+  <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+  <label for="name"><span style="font-weight:bold">Name</label>
+  <input type="name" name="name"><br>
+  
+  <input type="checkbox" name="txt">
+  <label for="txt"> I would like my gift to remain anonymous.</label><br>
+  
+  <input type="checkbox" name="txt">
+  <label for="txt"> My employer offers a matching gift program. I will mail the matching gift form.</label><br>
+  <input type="checkbox" name="txt">
+  <label for="txt"> Please save the cost of acknowledging this gift by not mailing a thank you letter.</label><br>
+  <label for="cmnt"><span style="font-weight:bold">Comments</label>
+  <font size="2">(Please type any questions or feedback here)</font>
+  <textarea name="cmnt" rows="3" cols="30" ></textarea><br>
+
+  <label for="cmnt"><span style="font-weight:bold">How may we contact you?</label><br>
+  <input type="checkbox" name="txt">
+  <label for="txt"> E-mail</label><br>
+  
+  <input type="checkbox" name="txt">
+  <label for="txt"> Postal Mall</label><br>
+  <input type="checkbox" name="txt">
+  <label for="txt"> Telephone</label><br>
+  <input type="checkbox" name="txt">
+  <label for="txt"> Fax</label><br>
+  <font size="2">I would like to receive newsletters and information about special events by:</font><br>
+  <input type="checkbox" name="txt">
+  <label for="txt"> E-mail</label><br>
+  <input type="checkbox" name="txt">
+  <label for="txt"> Posta Mall</label><br>
+  <input type="checkbox" name="txt">
+  <label for="txt"> I would like to information about volunteering with..</label><br>
+  <input type="reset" value="Reset">
+  <input type="button" value="Continue" oneclick="alert('Completed')"><br>
+  <font size="2"><p>&#128274 Donate online with confidence. You are on a secure server </p></font>
+  <font size="2">If you have any problems  oe questions, please contact support.</font><br>
+
+
+
+
+
+  </td>
+  </tr>
+    </table>
+</form>
+
+</body>
+</html>
