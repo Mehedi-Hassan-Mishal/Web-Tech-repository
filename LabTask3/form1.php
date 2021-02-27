@@ -71,7 +71,7 @@
 	     ?>
 	
 
-	    <h2>Lab TaskK 3</h2>
+	    <h2>Lab Task 3</h2>
 	    <fieldset>
 	    <legend><h1>LOGIN</h1></legend>
 	    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
