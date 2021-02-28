@@ -11,6 +11,8 @@
 <title>CHANGE PROFILE PICTURE</title>
 <h1>The M Company</h1>
 
+Logged in as <a href= "Logged_in_dashboard.php">Bob</a>
+
 <?php 
 
 
@@ -18,7 +20,7 @@ session_start();
 
 if (isset($_SESSION['uname'])) {
 
-    echo "<a herf='Bob.php'>Logged in as Bob</a><br>";
+   
 	echo "<br><a href='Logout.php'>Logout</a><br>";
 
 	
@@ -45,7 +47,12 @@ else{
 	<fieldset>
 	    <legend><h1>PROFILE PICTURE</h1></legend>
 <form action="upload.php" method="post" enctype="multipart/form-data">
-  Select image to upload:
+  
+
+  <div class="box" >
+      	<img src="profile.jpg" alt="" class="box-img">
+      </div>
+
   <input type="file" name="fileToUpload" id="fileToUpload">
   <br><br>
   <input type="submit" value="Submit" name="submit">

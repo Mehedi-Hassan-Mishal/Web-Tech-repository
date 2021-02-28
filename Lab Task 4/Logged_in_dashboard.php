@@ -11,14 +11,17 @@
 <title>LOGGED_IN_DASHBOARD</title>
 <h1>The M Company</h1>
 
-<?php 
+
+Logged in as <a href= "Logged_in_dashboard.php">Bob</a>
+
+   <?php 
 
 
 session_start();
 
 if (isset($_SESSION['uname'])) {
 
-    echo "<a herf='Bob.php'>Logged in as Bob</a><br>";
+    
 	echo "<br><a href='Logout.php'>Logout</a><br>";
 
 	
@@ -31,6 +34,10 @@ else{
 	}
 
  ?>
+	
+
+
+
 <h2>Account</h2>
 
 <ul> <li><a href= "Logged_in_dashboard.php">Dashboard</a></li>

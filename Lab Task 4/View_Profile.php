@@ -11,6 +11,8 @@
 <title>VIEW PROFILE</title>
 <h1>The M Company</h1>
 
+
+Logged in as <a href= "Logged_in_dashboard.php">Bob</a>
 <?php 
 
 
@@ -18,7 +20,7 @@ session_start();
 
 if (isset($_SESSION['uname'])) {
 
-    echo "<a herf='Bob.php'>Logged in as Bob</a><br>";
+   
 	echo "<br><a href='Logout.php'>Logout</a><br>";
 
 	
@@ -72,12 +74,15 @@ else{
 <br><br>
 	  
 
-<?php 
+	  <div class="box" >
+      	<img src="profile.jpg" alt="" class="box-img">
+      </div>
 
-    echo "<a herf='Change_Profile_Picture.php'>Change</a><br>";
-	echo "<br><a href='Edit_Profile.php'>Edit Profile</a><br>";
 
-	?>
+<br><a href= "Change_Profile_Picture.php">Change</a><br>
+          
+<br><a href='Edit_Profile.php'>Edit Profile</a><br>
+
 
 </fieldset>
  <?php include 'footer.php';?>
