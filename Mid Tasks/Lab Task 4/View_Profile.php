@@ -75,7 +75,9 @@ else{
 	  
 
 	  <div class="box" >
-      	<img src="profile.jpg" alt="" class="box-img">
+      	<img style=" border-radius: 50%;
+  width: 10px;
+  height: 10px; "src="profile.jpg" alt="" class="box-img">
       </div>
 
 

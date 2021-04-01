@@ -15,7 +15,7 @@ session_start();
 	</head>
 	<body>
 
-<form style="border:3px; border-style:solid; border-color:gray; padding: 1em;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
+<form style="border:3px; border-style:solid; border-color:gray; padding: 10em;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
 <title>FORGOT PASSWORD</title>
 <h1>The M Company</h1>
 
