@@ -1,0 +1,200 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+
+   .my-color
+   {
+    background: #000;
+   }
+   .background
+   {
+      background-image: url("../Pictures/backgroundlogin.webp");
+       background-repeat: no-repeat;
+  background-size: cover;
+
+   }
+    /* Tooltip */
+  .tooltip > .tooltip-inner {
+    background-color: #73AD21; 
+    color: #FFFFFF; 
+    border: 1px solid green; 
+    padding: 15px;
+    font-size: 20px;
+  }
+
+
+   input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: black;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color:black;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+
+
+
+.contact-banner {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 114, 66) 0%,
+    rgb(4, 109, 91) 100%
+  );
+  color: white;
+  padding: 40px;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.contact-description {
+  margin-bottom: 40px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 280px;
+  border: 1px solid rgb(0, 114, 66);
+  font-size: 18px;
+  outline: none;
+  color: #333;
+}
+
+.form-control {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+#error
+{
+  color: red;
+  font-size: 30px;
+  margin-left: 100px;
+  font-style: italic ;
+
+}
+
+textarea {
+  width: 560px;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  height: 200px;
+  font-size: 18px;
+}
+
+button {
+  color: black;
+  padding: 20px;
+  border: 1px solid rgb(0, 114, 66);
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: rgb(0, 114, 66);
+}
+
+button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 114, 66) 0%,
+    rgb(4, 109, 91) 100%
+  );
+  color: white;
+}
+
+form {
+  padding: 40px;
+}
+
+hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 1px;
+  border: none;
+  background-color: rgb(0, 114, 66);
+}

@@ -1,0 +1,74 @@
+{
+
+  "Properties":[
+             {
+
+             	"Location": "Banani",
+             	"Address" : "Road:11, House:23",
+             	"Floor": "5th floor",
+                "Room": "Master BedRoom"
+             },
+             {
+
+             	"Location": "Uttara",
+             	"Address" : "Sector:08, House:12",
+             	"Floor": "2th floor",
+                "Room": "BedRoom"
+             },
+
+             {
+
+             	"Location": "Bashundhara",
+             	"Address" : "Road:6, House:2",
+             	"Floor": "7th floor",
+                "Room": "BedRoom"
+             },
+             {
+
+             	"Location": "Mohammadpur",
+             	"Address" : "Road:6, Shamoli mosque",
+             	"Floor": "5th floor",
+                "Room": "single BedRoom"
+             },
+
+             {
+
+             	"Location": "Banani",
+             	"Address" : "Road:10, House:11",
+             	"Floor": "9th floor",
+                "Room": "Master BedRoom"
+             },
+             {
+
+             	"Location": "Uttara",
+             	"Address" : "Sector:11, House:9",
+             	"Floor": "1st floor",
+                "Room": "Single BedRoom"
+             },
+             {
+
+             	"Location": "Bashundhara",
+             	"Address" : "Road:7, House:23",
+             	"Floor": "2th floor",
+                "Room": "BedRoom"
+             },
+             {
+
+             	"Location": "Mohakhali",
+             	"Address" : "Opposite of BRACU , House:23",
+             	"Floor": "5th floor",
+                "Room": "Single BedRoom"
+             }
+
+
+
+
+
+
+
+
+  ]
+
+
+
+}
